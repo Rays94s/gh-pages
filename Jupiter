@@ -2,3 +2,6 @@ git init
 git checkout -b gh-pages
 git add index.html
 git commit
+git remote add origin git@github.com:YOUR_USER_NAME/YOUR_REPO_NAME.git
+git branch -M gh-pages
+git push -u origin gh-pages
